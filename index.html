@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWSkills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="h-screen w-full">
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-6 items-center">
+        <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+        <ul class="md:flex font-semibold hidden">
+            <li class="mx-[10px] cursor-pointer">Home</li>
+            <li class="mx-[10px] cursor-pointer">About</li>
+            <li class="mx-[10px] cursor-pointer">Contact</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded-lg font-bold cursor-pointer">Login/Signup</div>
+        <div class="md:hidden">
+            <a class="text-3xl text-indigo-900 font-bold" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <main class="md:bg-[url('./imgs/laptop4.jpg')] bg-[url('./imgs/laptop1.jpg')] bg-center bg-cover h-[calc(100vh-56px)] w-full text-white flex flex-col md:flex-row">
+        <div class="md:w-1/2 w-full md:h-full h-1/2 flex flex-col justify-center items-center gap-4">
+            <h1 class="text-5xl font-sans drop-shadow">Welcome.</h1>
+            <div class="flex gap-2">
+                <button class="bg-blue-600 px-5 py-2 rounded-lg font-bold hover:bg-blue-500">Explore</button>
+                <button class="bg-blue-600 px-5 py-2 rounded-lg font-bold hover:bg-blue-500">Paid Courses</button>
+            </div>
+        </div>
+        <div class="md:w-1/2 w-full md:h-full h-1/2 flex flex-col justify-center items-center">
+            <div class="flex justify-around flex-col gap-5 md:bg-slate-800 p-4 rounded-xl shadow-lg bg-neutral-200 opacity-90">
+                <h1 class="text-center md:text-3xl text-2xl font-bold text-yellow-500 font-mono"><span class="px-5 rounded-lg">Search skills</span></h1>
+                <input type="text" class="border-slate-600 border-1 bg-slate-950 rounded-3xl outline-none py-2 px-5 text-white" placeholder="Skill...">
+            </div>
+        </div>
+    </main>
+    <div class="h-auto w-full flex flex-wrap flex-col items-center text-center justify-center bg-slate-700">
+        <div class="w-full h-auto flex- justify-center flex-col items-center py-2">
+            <p class="text-neutral-50 font-bold text-3xl md:text-4xl">"Pure Hardwork, No Shortcut!"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-500 mx-auto my-3"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="flex flex-col justify-center text-center items-center mb-4 mx-5">
+                <img src="./imgs/monitor-svgrepo-com.svg" class="h-16 w-16" alt="monitor">
+                <p class="text-2xl font-bold text-white">600+</p>
+                <p class="text-xl font-bold text-gray-500">Different Coureses</p>
+            </div>
+            <div class="flex flex-col justify-center text-center items-center mb-4 mx-5">
+                <img src="./imgs/office-chair-svgrepo-com.svg" class="h-16 w-16" alt="monitor">
+                <p class="text-2xl font-bold text-white">700,000+</p>
+                <p class="text-xl font-bold text-gray-500">Student Enrolled</p>
+            </div>
+            <div class="flex flex-col justify-center text-center items-center mb-4 mx-5">
+                <img src="./imgs/pen-svgrepo-com.svg" class="h-16 w-16" alt="monitor">
+                <p class="text-2xl font-bold text-white">10,000+</p>
+                <p class="text-xl font-bold text-gray-500">Successful Transitions</p>
+            </div>
+        </div>
+        <div class="h-auto w-full flex flex-wrap flex-col items-center p-10">
+            <div class="w-full h-auto flex- justify-center flex-col items-center py-2">
+                <p class="text-neutral-50 font-bold text-3xl md:text-4xl">"Our Products"</p>
+                <div class="w-36 h-1 border-b-4 border-yellow-500 mx-auto my-3"></div>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-around w-[90%] h-auto">
+            <div class="w-64 flex flex-col items-center border-white border-4 p-3 rounded-xl m-3">
+                <img class="h-20 w-20" src="./imgs/folder-svgrepo-com.svg" alt="img">
+                <p class="md:text-3xl text-2xl font-bold text-white">PW Skills</p>
+                <p class="text-lg font-mono text-gray-500 font-bold mt-2">Superchange your project developement with our robust lab.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center border-white border-4 p-3 rounded-xl m-3">
+                <img class="h-20 w-20" src="./imgs/briefcase-svgrepo-com.svg" alt="img">
+                <p class="md:text-3xl text-2xl font-bold text-white">Job Portal</p>
+                <p class="text-lg font-mono text-gray-500 font-bold mt-2">Use exceptional templatefor a stand-out resume minus the sign up process</p>
+            </div>
+            <div class="w-64 flex flex-col items-center border-white border-4 p-3 rounded-xl m-3">
+                <img class="h-20 w-20" src="./imgs/telephone-svgrepo-com.svg" alt="img">
+                <p class="md:text-3xl text-2xl font-bold text-white">Job Portal</p>
+                <p class="text-lg font-mono text-gray-500 font-bold mt-2">Use exceptional templatefor a stand-out resume minus the sign up process</p>
+            </div>
+            <div class="w-64 flex flex-col items-center border-white border-4 p-3 rounded-xl m-3">
+                <img class="h-20 w-20" src="./imgs/office-chair-svgrepo-com.svg" alt="img">
+                <p class="md:text-3xl text-2xl font-bold text-white">Job Portal</p>
+                <p class="text-lg font-mono text-gray-500 font-bold mt-2">Use exceptional templatefor a stand-out resume minus the sign up process</p>
+            </div>
+            <div class="w-64 flex flex-col items-center border-white border-4 p-3 rounded-xl m-3">
+                <img class="h-20 w-20" src="./imgs/briefcase-svgrepo-com.svg" alt="img">
+                <p class="md:text-3xl text-2xl font-bold text-white">Job Portal</p>
+                <p class="text-lg font-mono text-gray-500 font-bold mt-2">Use exceptional templatefor a stand-out resume minus the sign up process</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
